@@ -1,0 +1,3 @@
+CREATE DATABASE wordpress_db;
+GRANT ALL ON wordpress_db.* TO 'adm'@'localhost' IDENTIFIED BY 'adm' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
